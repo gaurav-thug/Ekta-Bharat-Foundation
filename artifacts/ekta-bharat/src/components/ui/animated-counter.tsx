@@ -7,20 +7,19 @@ export function AnimatedCounter({ value, duration = 2 }: { value: number, durati
   const isInView = useInView(ref, { once: true, margin: "-50px" });
 
   useEffect(() => {
-    if (isInView) {
-      let start = 0;
-      const increment = value / (duration * 60); // Assuming 60fps
-      const timer = setInterval(() => {
-        start += increment;
-        if (start >= value) {
-          setCount(value);
-          clearInterval(timer);
-        } else {
-          setCount(Math.floor(start));
-        }
-      }, 1000 / 60);
-      return () => clearInterval(timer);
-    }
+    if (!isInView) return;
+    let start = 0;
+    const increment = value / (duration * 60);
+    const timer = setInterval(() => {
+      start += increment;
+      if (start >= value) {
+        setCount(value);
+        clearInterval(timer);
+      } else {
+        setCount(Math.floor(start));
+      }
+    }, 1000 / 60);
+    return () => clearInterval(timer);
   }, [value, duration, isInView]);
 
   return <span ref={ref}>{count.toLocaleString('en-IN')}</span>;
