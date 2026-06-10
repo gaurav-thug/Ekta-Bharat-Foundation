@@ -1,0 +1,62 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "xfqwLpMssOcss66nHJnLk"
+uri = "file://artifacts/ekta-bharat/public/images/hero.png"
+type = "image"
+title = "Hero Indian NGO"
+
+[[generated]]
+id = "f-1zThG4bD-ZwyQZyu026"
+uri = "file://artifacts/ekta-bharat/public/images/why-ekta.png"
+type = "image"
+title = "Poverty and hope"
+
+[[generated]]
+id = "LKQxjsxhAYqYHIPHob2D_"
+uri = "file://artifacts/ekta-bharat/public/images/women-empowerment.png"
+type = "image"
+title = "Women skill training"
+
+[[generated]]
+id = "FjcQVr4_HWiR4SecZrQRU"
+uri = "file://artifacts/ekta-bharat/public/images/child-education.png"
+type = "image"
+title = "Child education"
+
+[[generated]]
+id = "2kHKCklsWR2YD9VMF7LCg"
+uri = "file://artifacts/ekta-bharat/public/images/food-support.png"
+type = "image"
+title = "Food distribution"
+
+[[generated]]
+id = "Xt4VSVeTIeRcm5RoUmTJh"
+uri = "file://artifacts/ekta-bharat/public/images/healthcare.png"
+type = "image"
+title = "Health camp"
+
+[[generated]]
+id = "c--pxk3SMj-6yQX4BVccT"
+uri = "file://artifacts/ekta-bharat/public/images/clean-water.png"
+type = "image"
+title = "Clean water"
+
+[[generated]]
+id = "Ft9q413QUv7a2l_zWrTfm"
+uri = "file://artifacts/ekta-bharat/public/images/community.png"
+type = "image"
+title = "Community gathering"
+
+[[generated]]
+id = "-kno5N5XntE6jUdSCVfHB"
+uri = "file://artifacts/ekta-bharat/public/images/story-1.png"
+type = "image"
+title = "Success story"
+
+[[generated]]
+id = "E4a-zXDjdl539vAE0WNSt"
+uri = "file://artifacts/ekta-bharat/public/images/volunteer.png"
+type = "image"
+title = "Volunteers"

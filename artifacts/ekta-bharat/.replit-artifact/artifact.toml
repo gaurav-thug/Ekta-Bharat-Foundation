@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Ekta Bharat Foundation"
+version = "1.0.0"
+id = "artifacts/ekta-bharat"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21424
+
+[services.development]
+run = "pnpm --filter @workspace/ekta-bharat run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/ekta-bharat", "run", "build" ]
+publicDir = "artifacts/ekta-bharat/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21424"
+BASE_PATH = "/"

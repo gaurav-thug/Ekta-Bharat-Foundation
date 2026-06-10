@@ -1,0 +1,68 @@
+Create a premium NGO website for “Ekta Bharat Foundation” inspired by Smile Foundation India’s women empowerment page.
+
+Client website: https://ektabharatfoundation.org/
+Reference style: https://www.smilefoundationindia.org/women-empowerment/
+
+Use Ekta Bharat Foundation’s real objectives:
+- Women empowerment
+- Child education
+- Food support
+- Healthcare
+- Clean water
+- Community development
+
+Design the website like a serious national NGO, not a basic charity template.
+
+Add these sections:
+1. Hero section with emotional NGO image, powerful headline, Donate Now and Join as Volunteer buttons.
+2. “Why Ekta Bharat Foundation?” section explaining the problem and mission.
+3. “What We Do” section like Smile Foundation, with clean explanation of all focus areas.
+4. “Our Interventions” section with cards:
+   - Women Skill Development
+   - Child Education Support
+   - Food & Nutrition Drives
+   - Health Camps
+   - Clean Water Support
+   - Community Welfare
+5. Impact section with editable realistic numbers, styled like Smile Foundation:
+   - Women supported
+   - Children educated
+   - Food kits distributed
+   - Health camps organized
+   - Volunteers joined
+6. “Stories of Change” section with emotional story cards.
+7. “Changes That Inspire Us” video/gallery section.
+8. Campaign section with donation progress bars.
+9. Volunteer and internship section.
+10. Corporate partnership / CSR section.
+11. Transparency section with certificates, reports, donation usage, and legal documents.
+12. Blog/news section.
+13. Contact section with phone, email, address, map, and WhatsApp button.
+14. Sticky Donate button.
+
+Image instructions:
+Use only real, relevant Indian NGO-style images:
+- Women empowerment training
+- Children studying
+- Food distribution
+- Health camp
+- Rural communities
+- Volunteers helping
+- Clean water support
+Do not use random western stock photos or unrelated images.
+
+Style:
+- Clean professional NGO layout
+- Inspired by Smile Foundation but unique
+- White background with saffron, green, deep blue accents
+- Large emotional photos
+- Bold headings
+- Smooth animations
+- Scroll reveal effects
+- Hover effects
+- Mobile responsive
+- Fast loading
+- Trust-focused design
+- Modern navbar with dropdowns
+
+Make the final website look drastically better than the current Ekta Bharat Foundation website and suitable for donors, volunteers, and CSR partners.
