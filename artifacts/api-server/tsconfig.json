@@ -3,11 +3,18 @@
   "compilerOptions": {
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "allowImportingTsExtensions": true,
-    "noEmit": true,
-    "incremental": true,
-    "tsBuildInfoFile": ".tsbuildinfo",
-    "types": ["node"]
+    "outDir": "dist",
+    "rootDir": "src",
+    "baseUrl": ".",
+    "paths": {
+      "@workspace/api-zod": ["../../lib/api-zod/dist/index"],
+      "@workspace/db": ["../../lib/db/dist/index"],
+      "@workspace/db/schema": ["../../lib/db/dist/schema/index"]
+    }
   },
-  "include": ["src"]
+  "include": ["src"],
+  "references": [
+    { "path": "../../lib/api-zod" },
+    { "path": "../../lib/db" }
+  ]
 }
