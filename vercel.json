@@ -1,0 +1,6 @@
+{
+  "buildCommand": "pnpm --filter @workspace/ekta-bharat run build",
+  "outputDirectory": "artifacts/ekta-bharat/dist/public",
+  "installCommand": "pnpm install",
+  "framework": null
+}
